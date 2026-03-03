@@ -1,0 +1,138 @@
+{
+  "schema_version": "0.1",
+  "last_updated": "2026-03-03",
+  "note": "Starter catalog used to power the interactive explorer. Replace/extend entries and validate details against primary sources.",
+  "datasets": [
+    {
+      "id": "adni",
+      "name": "ADNI (Alzheimer’s Disease Neuroimaging Initiative) — example entry",
+      "description": "Large longitudinal study often used for MRI/PET/clinical biomarkers research. This entry is a placeholder you should validate.",
+      "modalities": [
+        "neuroimaging",
+        "genetics",
+        "proteomics"
+      ],
+      "countries": [
+        "USA",
+        "CAN"
+      ],
+      "access": "application",
+      "link": "https://adni.loni.usc.edu/",
+      "notes": "Verify modalities, demographics, and access rules before using in analysis."
+    },
+    {
+      "id": "aibl",
+      "name": "AIBL (Australian Imaging, Biomarkers and Lifestyle) — example entry",
+      "description": "Australian cohort with imaging and biomarker data (placeholder).",
+      "modalities": [
+        "neuroimaging",
+        "proteomics"
+      ],
+      "countries": [
+        "AUS"
+      ],
+      "access": "application",
+      "link": "",
+      "notes": "Add official access link and confirm data availability."
+    },
+    {
+      "id": "oasis",
+      "name": "OASIS (Open Access Series of Imaging Studies) — example entry",
+      "description": "Open neuroimaging datasets (placeholder).",
+      "modalities": [
+        "neuroimaging"
+      ],
+      "countries": [
+        "USA"
+      ],
+      "access": "open",
+      "link": "",
+      "notes": "Confirm which OASIS release you reference (OASIS-1/2/3) and its inclusion criteria."
+    },
+    {
+      "id": "ukb",
+      "name": "UK Biobank — example entry",
+      "description": "Large population cohort with imaging, genetics, and extensive phenotyping (placeholder).",
+      "modalities": [
+        "neuroimaging",
+        "genetics",
+        "exposomics"
+      ],
+      "countries": [
+        "GBR"
+      ],
+      "access": "application",
+      "link": "https://www.ukbiobank.ac.uk/",
+      "notes": "Not AD-specific; often used for dementia risk factors and imaging-derived phenotypes."
+    },
+    {
+      "id": "epad",
+      "name": "EPAD (European Prevention of Alzheimer’s Dementia) — example entry",
+      "description": "European multi-site cohort / initiative (placeholder).",
+      "modalities": [
+        "neuroimaging",
+        "genetics",
+        "proteomics",
+        "exposomics"
+      ],
+      "countries": [
+        "GBR",
+        "FRA",
+        "NLD",
+        "ESP",
+        "DEU"
+      ],
+      "access": "application",
+      "link": "",
+      "notes": "Confirm participating countries/sites and modalities actually shared."
+    },
+    {
+      "id": "adsps",
+      "name": "ADSP (Alzheimer’s Disease Sequencing Project) — example entry",
+      "description": "Genetics-focused initiative (placeholder).",
+      "modalities": [
+        "genetics"
+      ],
+      "countries": [
+        "USA"
+      ],
+      "access": "application",
+      "link": "",
+      "notes": "Add correct access portal and whether linked phenotypes are available."
+    },
+    {
+      "id": "rosmap",
+      "name": "ROSMAP — example entry",
+      "description": "Aging/dementia cohort with omics layers (placeholder).",
+      "modalities": [
+        "genetics",
+        "proteomics"
+      ],
+      "countries": [
+        "USA"
+      ],
+      "access": "open",
+      "link": "",
+      "notes": "Add the official repository link and confirm which omics layers are shared."
+    },
+    {
+      "id": "addneuromed",
+      "name": "AddNeuroMed — example entry",
+      "description": "European multi-center AD study (placeholder).",
+      "modalities": [
+        "neuroimaging",
+        "proteomics"
+      ],
+      "countries": [
+        "GBR",
+        "FRA",
+        "DEU",
+        "ITA",
+        "ESP"
+      ],
+      "access": "application",
+      "link": "",
+      "notes": "Validate accessibility and dataset status (active / archived / harmonized)."
+    }
+  ]
+}

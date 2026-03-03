@@ -1,0 +1,22 @@
+{
+  "all": {
+    "label": "All modalities",
+    "short": "Overview across modalities",
+    "description": "Counts all datasets in the catalog, regardless of modality."
+  },
+  "neuroimaging": {
+    "label": "Neuroimaging",
+    "short": "MRI / PET / etc.",
+    "description": "Imaging-based data that can support AD phenotyping, subtyping, and early detection (e.g., MRI, PET)."
+  },
+  "genetics_proteomics": {
+    "label": "Genetics & Proteomics",
+    "short": "Genomics + molecular layers",
+    "description": "Molecular layers used to study genetic risk, ancestry, and downstream pathways (genetics and proteomics)."
+  },
+  "exposomics": {
+    "label": "Exposomics",
+    "short": "Environment & life-course",
+    "description": "Non-genetic exposures across the life course (environment, social determinants, lifestyle) that shape risk and resilience."
+  }
+}

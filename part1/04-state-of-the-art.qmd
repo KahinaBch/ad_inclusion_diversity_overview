@@ -1,0 +1,34 @@
+---
+title: "State of the art: background, motivation, and scope"
+root: ".."
+---
+
+::: {.callout-note}
+This page is a **scaffold**. Replace placeholder text with your own writing and add citations. This chapter should define the scope of the rest of the analysis.
+:::
+
+## Background and motivation
+
+*Placeholder:* Briefly summarise:
+- Why AD research has relied on specific populations historically
+- Consequences for prevention and diagnosis tools
+- Ethical and scientific motivations for inclusion
+
+## Scope of this project
+
+This website focuses on:
+- A structured narrative (Part I)
+- A practical inventory of datasets and initiatives (Part II)
+- Three reproducible research deliverables (Original research)
+
+## Definitions of “inclusion” and “equity”
+
+*Placeholder:* Clarify what you mean by:
+- Inclusion in sampling and participation
+- Inclusion in analysis (stratification, fairness)
+- Equitable governance and benefit sharing
+
+## Take-away
+
+*Placeholder:* 3–5 bullet points.
+

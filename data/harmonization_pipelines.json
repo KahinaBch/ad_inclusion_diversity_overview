@@ -1,0 +1,16 @@
+{
+  "schema_version": "0.1",
+  "last_updated": "2026-03-03",
+  "items": [
+    {
+      "id": "example-harmonization-1",
+      "name": "Example harmonisation pipeline (placeholder)",
+      "type": "pipeline",
+      "modalities": [
+        "neuroimaging"
+      ],
+      "link": "",
+      "notes": "Replace with real harmonisation toolchains; include code repo + documentation."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+# Quarto
+/_site/
+/.quarto/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+
+# Node
+node_modules/

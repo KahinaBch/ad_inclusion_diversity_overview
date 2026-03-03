@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this project structure, please cite it as software."
+title: "GBM6330E Final Project Website (AD diversity inclusion)"
+type: software
+authors:
+  - name: "Your Name"
+date-released: "2026-03-03"
+url: "https://github.com/<YOUR-USERNAME>/<YOUR-REPO>"

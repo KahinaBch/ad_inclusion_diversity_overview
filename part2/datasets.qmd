@@ -1,0 +1,48 @@
+---
+title: "Datasets overview"
+root: ".."
+format:
+  html:
+    toc: true
+---
+
+This page provides a searchable view of the dataset catalog used by the Interactive Explorer.
+
+::: {.callout-note}
+The catalog in `data/datasets.json` ships with **placeholder starter entries**.
+Replace them with your own curated, validated inventory (as exhaustive as possible).
+:::
+
+<div class="dataset-controls" aria-label="Dataset filters">
+  <input id="datasetFilter" type="search" placeholder="Search datasets (name, description, notes)…" />
+  <select id="modalityFilter" aria-label="Filter by modality">
+    <option value="all">All modalities</option>
+    <option value="neuroimaging">Neuroimaging</option>
+    <option value="genetics">Genetics</option>
+    <option value="proteomics">Proteomics</option>
+    <option value="exposomics">Exposomics</option>
+  </select>
+</div>
+
+<div class="small-muted" id="datasetCount"></div>
+
+<table class="table table-sm" id="datasetsTable" data-quarto-disable-processing="true">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Modalities</th>
+      <th>Countries</th>
+      <th>Access</th>
+      <th>Link</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>
+
+```{=html}
+<script>
+  window.AD_DIVERSITY_ROOT = "{{< meta root >}}";
+</script>
+<script src="{{< meta root >}}/assets/js/datasets-table.js"></script>
+```
+

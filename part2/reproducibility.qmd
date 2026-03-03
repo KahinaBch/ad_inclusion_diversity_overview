@@ -1,0 +1,36 @@
+---
+title: "Reproducible science: open-source code, datasets, and sharing practices"
+root: ".."
+---
+
+::: {.callout-note}
+This page is a **scaffold**. Replace placeholder text with your own synthesis and citations.
+:::
+
+## Why reproducibility is part of “diversity”
+
+*Placeholder:* Discuss why openness and reproducibility are linked to inclusion:
+- If only a subset of groups can access tools/data, results may encode bias
+- Reproducible workflows enable auditing for fairness and generalisability
+- Shared code and transparent reporting allow error correction and community benefit
+
+## Open-source code and dataset sharing
+
+*Placeholder:* Discuss:
+- Data availability statements (DAS)
+- Code availability statements (CAS)
+- Reproducibility checklists and badges
+- Incentives and barriers
+
+## Reproducibility initiatives
+
+*Placeholder:* Mention community initiatives relevant to neuroimaging/omics/open science.
+
+## Your project’s reproducibility study
+
+One of the project deliverables is a reproducible repository:
+
+> **Investigating the proportion of papers sharing code and datasets in the _Alzheimer’s & Dementia_ journal**
+
+Once created, link it from the **Original research** page.
+

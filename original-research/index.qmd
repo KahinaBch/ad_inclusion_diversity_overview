@@ -1,0 +1,52 @@
+---
+title: "Original research (reproducible sub-projects)"
+root: ".."
+format:
+  html:
+    toc: false
+---
+
+This hub site is designed so each original research deliverable lives in its **own GitHub repository** (reproducible, with its own README, data dictionary, and—if applicable—code + environment specification).
+
+Update the links below once you create those repositories.
+
+::: {.card-grid}
+
+::: {.card}
+### 1) Open documentation: AD datasets catalog
+Create an open documentation to recap all available AD datasets and their content (as exhaustive as possible).
+
+- **Format:** GitHub repository + issues for community contributions
+- **Recommended structure:** data dictionary, modality tags, access requirements, geographies, demographics reporting checklist
+
+[Repo link (update)](https://github.com/){.btn .btn-primary}
+:::
+
+::: {.card}
+### 2) Open documentation: shared atlases & harmonisation pipelines
+Create an open documentation listing shared atlases and harmonisation pipelines (neuroimaging + multimodal).
+
+- **Format:** GitHub repository + versioned inventory
+- **Recommended fields:** modality, license, citation, scope, input/output, validation benchmarks
+
+[Repo link (update)](https://github.com/){.btn .btn-primary}
+:::
+
+::: {.card}
+### 3) Reproducibility study: code/data sharing in *Alzheimer’s & Dementia*
+Investigate the proportion of papers sharing code and datasets in the journal.
+
+- **Format:** reproducible repo (data extraction protocol + analysis scripts + outputs)
+- **Include:** PRISMA-like flow, inter-rater reliability, open dataset of metadata where permitted
+
+[Repo link (update)](https://github.com/){.btn .btn-primary}
+:::
+
+:::
+
+---
+
+## Link back
+
+- [Interactive Explorer](../part2/explorer.qmd)
+

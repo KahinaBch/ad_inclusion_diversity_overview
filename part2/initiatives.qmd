@@ -1,0 +1,39 @@
+---
+title: "Open-science initiatives and large-scale collaborations"
+root: ".."
+---
+
+::: {.callout-note}
+This page is a **scaffold**. Replace placeholder text with your own synthesis and citations.
+:::
+
+## Open datasets and open science
+
+*Placeholder:* Discuss:
+- Data sharing as a mechanism to improve representativeness and reproducibility
+- Risks: privacy, re-identification, extractive practices
+- Governance patterns: DACs, DUAs, federated models
+
+## Shared atlases and multi-site harmonisation
+
+*Placeholder:* Summarise:
+- Why harmonisation matters for multi-site diversity
+- How harmonisation can both reduce and hide bias (important nuance)
+- Common evaluation patterns for harmonisation (e.g., preserve biological signal)
+
+## Large-scale collaborations
+
+*Placeholder:* Provide an overview of major collaborations and what they enable:
+- Sample size & power
+- Cross-site generalisation
+- Multimodal integration
+
+## What to link here
+
+This hub site is meant to link to a dedicated, reproducible repository:
+
+- **Shared atlases & harmonisation pipelines** (external repo)
+- **Dataset inventory** (external repo)
+
+You can update the “Original research” section when those repos are created.
+

@@ -1,0 +1,29 @@
+---
+title: "Shared atlases and harmonisation pipelines"
+root: ".."
+format:
+  html:
+    toc: true
+---
+
+This page is a **starter**: it reads `data/atlases.json` and `data/harmonization_pipelines.json` and renders them as simple lists.
+
+::: {.callout-note}
+Replace the placeholder items in those JSON files with your curated inventory and add citations / licenses.
+:::
+
+## Shared atlases
+
+<div id="atlasesList" class="small-muted">Loading…</div>
+
+## Harmonisation pipelines
+
+<div id="pipelinesList" class="small-muted">Loading…</div>
+
+```{=html}
+<script>
+  window.AD_DIVERSITY_ROOT = "{{< meta root >}}";
+</script>
+<script src="{{< meta root >}}/assets/js/atlases-page.js"></script>
+```
+

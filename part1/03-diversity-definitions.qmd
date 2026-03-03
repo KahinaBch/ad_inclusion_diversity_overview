@@ -1,0 +1,31 @@
+---
+title: "Defining the diversity that impacts Alzheimer’s disease"
+root: ".."
+---
+
+::: {.callout-note}
+This page is a **scaffold**. Replace placeholder text with your own writing and add citations.
+:::
+
+## What “diversity” means in AD research
+
+*Placeholder:* Define diversity dimensions relevant to prevention and diagnosis, e.g.:
+- Genetic ancestry (and why it is not the same as race)
+- Sex and gender
+- Socioeconomic position and education
+- Geography (urban/rural), health system access
+- Environment, exposures, occupation, lifestyle
+- Language and culture (testing and clinical interpretation)
+
+## Pathways by which diversity impacts prevention and diagnosis
+
+*Placeholder:* Map each dimension to mechanisms:
+- Biological pathways (risk/resilience)
+- Measurement / instrument bias
+- Access to care and diagnostic pathways
+- Representation in training/benchmark datasets
+
+## A practical taxonomy
+
+*Placeholder:* Provide a table of diversity dimensions and what variables should be reported/captured in datasets.
+

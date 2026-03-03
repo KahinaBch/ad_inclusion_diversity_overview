@@ -1,0 +1,58 @@
+project:
+  type: website
+  output-dir: _site
+  # Ensure JSON/GeoJSON used by JavaScript is copied to the published site
+  resources:
+    - data/**
+
+website:
+  title: "{{< var course >}} – Final Project"
+  description: "{{< var project_title >}}"
+  favicon: assets/img/favicon.svg
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - text: "Part I – The need for diversity"
+        menu:
+          - href: part1/01-defining-ad.qmd
+            text: "Defining Alzheimer’s disease"
+          - href: part1/02-heterogeneity.qmd
+            text: "A highly heterogeneous disease"
+          - href: part1/03-diversity-definitions.qmd
+            text: "Defining diversity that impacts AD"
+          - href: part1/04-state-of-the-art.qmd
+            text: "State of the art, scope & motivation"
+      - text: "Part II – Initiatives integrating diversity"
+        menu:
+          - href: part2/explorer.qmd
+            text: "Interactive Explorer"
+          - href: part2/datasets.qmd
+            text: "Datasets overview"
+          - href: part2/initiatives.qmd
+            text: "Open-science & collaboration"
+          - href: part2/atlases-harmonization.qmd
+            text: "Shared atlases & harmonisation"
+          - href: part2/reproducibility.qmd
+            text: "Reproducible science"
+      - href: original-research/index.qmd
+        text: "Original research"
+
+  page-footer:
+    left: "© {{< var year >}} • {{< var course >}} Final Project"
+    right:
+      - text: "Data sources & attribution"
+        href: attribution.qmd
+
+format:
+  html:
+    theme: minty
+    css: assets/css/site.css
+    toc: true
+    toc-location: right
+    smooth-scroll: true
+    code-copy: true
+    link-external-newwindow: true
+
+execute:
+  freeze: auto

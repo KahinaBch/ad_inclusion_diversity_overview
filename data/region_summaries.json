@@ -1,0 +1,133 @@
+{
+  "schema_version": "0.1",
+  "last_updated": "2026-03-03",
+  "note": "Starter summaries for the Explorer panel and 'View more' pages. Replace with your own writing and citations.",
+  "continents": {
+    "Africa": {
+      "summary": "Starter placeholder: Summarise key opportunities and gaps in AD research representation, data availability, and infrastructure across Africa.",
+      "highlights": [
+        "Under-representation in many global AD cohorts can limit generalisability.",
+        "High value for studying diverse genetic ancestry and varied environmental exposures.",
+        "Need for sustainable data infrastructure, governance, and equitable partnerships."
+      ],
+      "initiatives": [
+        "Add regional consortia and neuroimaging/genetics initiatives here.",
+        "Add capacity-building and harmonisation efforts here."
+      ]
+    },
+    "Asia": {
+      "summary": "Starter placeholder: Summarise AD research diversity, datasets, and initiatives across Asia (regional heterogeneity is large).",
+      "highlights": [
+        "Large population diversity across genetic ancestry, languages, and environments.",
+        "Opportunities for multi-site harmonisation and federation.",
+        "Important to address within-region inequities and recruitment barriers."
+      ],
+      "initiatives": [
+        "List flagship cohorts / harmonised imaging efforts here.",
+        "List open-science initiatives here."
+      ]
+    },
+    "Europe": {
+      "summary": "Starter placeholder: Summarise European multi-country initiatives, harmonisation pipelines, and open-science collaborations relevant to AD.",
+      "highlights": [
+        "Strong track record in multi-site studies and harmonisation.",
+        "Cross-border data sharing can be enabled but requires governance and privacy alignment.",
+        "Representativeness still varies by country, SES, and migration history."
+      ],
+      "initiatives": [
+        "Add shared atlases and large-scale collaborations here.",
+        "Add reproducibility initiatives and code-sharing policies here."
+      ]
+    },
+    "North America": {
+      "summary": "Starter placeholder: Summarise major AD cohorts, imaging/genetics resources, and diversity gaps in North America.",
+      "highlights": [
+        "Many widely-used benchmarks originate here (risk of 'benchmark bias').",
+        "Improving recruitment of underrepresented populations is an active focus.",
+        "Large-scale genetics programs exist but equitable return of benefits is essential."
+      ],
+      "initiatives": [
+        "Add ADNI-like initiatives and data portals here.",
+        "Add harmonisation and open-science efforts here."
+      ]
+    },
+    "South America": {
+      "summary": "Starter placeholder: Summarise AD research representation and dataset availability across South America.",
+      "highlights": [
+        "Opportunities to capture diverse ancestry admixture and exposures.",
+        "Need for investment in longitudinal cohorts and imaging capacity.",
+        "Partnerships should support local leadership and data sovereignty."
+      ],
+      "initiatives": [
+        "Add national/regional cohorts here.",
+        "Add multi-site collaborations here."
+      ]
+    },
+    "Oceania": {
+      "summary": "Starter placeholder: Summarise initiatives in Oceania beyond Australia (if applicable) and the regional AD research landscape.",
+      "highlights": [
+        "Consider inclusion of Indigenous communities with community-led governance.",
+        "Smaller populations → importance of harmonisation and federation."
+      ],
+      "initiatives": [
+        "Add cohorts, imaging initiatives, and open-science efforts here."
+      ]
+    },
+    "Antarctica": {
+      "summary": "No AD datasets expected; included only because it appears in the continent layer.",
+      "highlights": [],
+      "initiatives": []
+    }
+  },
+  "countries": {
+    "USA": {
+      "summary": "Starter placeholder: Summarise key AD datasets and diversity initiatives in the United States.",
+      "highlights": [
+        "Common source of widely-used benchmarks and neuroimaging cohorts.",
+        "Ongoing work to improve representation across race/ethnicity, SES, and geography."
+      ],
+      "initiatives": [
+        "Add national consortia, harmonisation pipelines, and data portals here."
+      ]
+    },
+    "CAN": {
+      "summary": "Starter placeholder: Summarise Canadian AD cohorts and data-sharing initiatives.",
+      "highlights": [
+        "Opportunities for multi-province harmonisation and bilingual resources.",
+        "Important to support ethical governance for Indigenous data and community partnerships."
+      ],
+      "initiatives": [
+        "Add Canadian imaging/genetics initiatives here."
+      ]
+    },
+    "GBR": {
+      "summary": "Starter placeholder: Summarise UK contributions (population cohorts, imaging, genetics, data access frameworks).",
+      "highlights": [
+        "Large population-scale resources can inform dementia risk research.",
+        "Attention needed for representativeness and bias in recruitment/participation."
+      ],
+      "initiatives": [
+        "Add UK-based cohorts and open-science initiatives here."
+      ]
+    },
+    "FRA": {
+      "summary": "Starter placeholder: Summarise France-based cohorts, neuroimaging initiatives, and harmonisation efforts.",
+      "highlights": [
+        "Opportunities for linking clinical cohorts to imaging and omics layers.",
+        "Ethical and legal frameworks shape data access and sharing."
+      ],
+      "initiatives": [
+        "Add French AD cohort initiatives here."
+      ]
+    },
+    "AUS": {
+      "summary": "Starter placeholder: Summarise Australian AD cohorts and prevention studies.",
+      "highlights": [
+        "Important to address inclusion and ethical governance with First Nations communities."
+      ],
+      "initiatives": [
+        "Add Australian cohort(s) and data access links here."
+      ]
+    }
+  }
+}

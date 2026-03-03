@@ -1,0 +1,24 @@
+---
+title: "Data sources & attribution"
+root: "."
+---
+
+## Boundaries
+
+- **Country boundaries:** Natural Earth, 1:110m scale, provided here as GeoJSON (`data/geo/countries_110m.geojson`).
+- **Continent layer:** a GeoJSON “continents” file used for the Explorer’s continent mode (`data/geo/continents.geojson`).
+
+> Note: Always verify licensing requirements for any dataset you redistribute. Natural Earth is public domain; other layers may have different terms.
+
+## Maps
+
+- **Interactive mapping library:** Leaflet (loaded from CDN, pinned to v1.9.4).
+- **Base map tiles:** OpenStreetMap tiles, with attribution shown on the Explorer page.
+
+## How to update
+
+If you replace any dataset or layer, please update this page to reflect:
+- source
+- license
+- citation / preferred attribution
+

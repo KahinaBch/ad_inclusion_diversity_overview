@@ -1,0 +1,36 @@
+---
+title: "A highly heterogeneous disease"
+root: ".."
+---
+
+::: {.callout-note}
+This page is a **scaffold**. Replace placeholder text with your own writing and add citations to key review papers and consensus statements.
+:::
+
+## Heterogeneity across individuals
+
+*Placeholder:* Describe heterogeneity in:
+- Symptoms and cognitive profiles
+- Disease progression rates
+- Biomarker trajectories
+- Comorbidity patterns
+
+## Biological heterogeneity
+
+*Placeholder:* Discuss heterogeneity driven by:
+- Genetics and ancestry
+- Sex-related biology and gendered exposures
+- Proteomic / metabolomic signatures
+- Co-pathologies (vascular, Lewy bodies, etc.)
+
+## Methodological consequences
+
+*Placeholder:* Explain why heterogeneity makes:
+- Model generalisation harder
+- Biomarker thresholds fragile across populations
+- Harmonisation and standardised reporting essential
+
+## Take-away
+
+*Placeholder:* 3–5 bullet points.
+

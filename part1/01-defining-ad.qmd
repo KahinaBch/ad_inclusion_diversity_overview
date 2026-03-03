@@ -1,0 +1,31 @@
+---
+title: "Defining Alzheimer’s disease and the specificity of AD"
+root: ".."
+---
+
+::: {.callout-note}
+This page is a **scaffold**. Replace placeholder text with your own writing and add citations (e.g., to clinical definitions, diagnostic criteria, and epidemiology sources).
+:::
+
+## What is Alzheimer’s disease?
+
+*Placeholder:* Define AD as a neurodegenerative disease and clarify how it relates to the clinical syndrome of dementia.
+
+Consider covering:
+- Clinical presentation and typical trajectory
+- Neuropathology (e.g., amyloid and tau) vs. clinical diagnosis
+- Biomarker frameworks and how they impact “early” diagnosis
+
+## Why definitions matter for diversity
+
+*Placeholder:* Explain how case definitions, recruitment criteria, and diagnostic thresholds can create systematic inclusion/exclusion biases.
+
+Examples to discuss:
+- Differential access to biomarker testing
+- Cultural/linguistic effects on cognitive testing
+- Comorbidities that vary by population and affect diagnosis
+
+## Take-away
+
+*Placeholder:* 3–5 bullet points summarising what readers should remember from this chapter.
+

@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Person in a city: select modality</title>
+  <desc id="desc">Click the head to explore neuroimaging, click the arm vein for genetics and proteomics, click the environment for exposomics.</desc>
+
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8f2ff"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dff3e8"/>
+      <stop offset="1" stop-color="#cfe8dd"/>
+    </linearGradient>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
+
+    <style>
+      .building { fill: #b7c7d8; }
+      .building.window { fill: #e8f2ff; opacity: .85; }
+      .stroke-soft { stroke: #7b8da1; stroke-opacity: .35; }
+      .label { font: 600 14px system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; fill: #234; }
+      .label-sub { font: 12px system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; fill: #456; opacity: .95; }
+      .pill { fill: #ffffff; opacity: .92; stroke: #7b8da1; stroke-opacity: .25; }
+      .hotspot { cursor: pointer; }
+      .hotspot .halo { fill: #1f77b4; opacity: 0; transition: opacity .15s ease; }
+      .hotspot:hover .halo { opacity: .12; }
+      .hotspot:focus .halo { opacity: .18; }
+      .hint { font: 12px system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; fill: #345; opacity: .85; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="900" height="520" fill="url(#sky)"/>
+  <rect x="0" y="365" width="900" height="155" fill="url(#ground)"/>
+
+  <!-- City skyline (simple) -->
+  <g filter="url(#softShadow)">
+    <rect x="60" y="190" width="120" height="200" rx="10" class="building"/>
+    <rect x="210" y="150" width="160" height="240" rx="10" class="building"/>
+    <rect x="400" y="175" width="140" height="215" rx="10" class="building"/>
+    <rect x="565" y="135" width="180" height="255" rx="10" class="building"/>
+    <rect x="770" y="205" width="90" height="185" rx="10" class="building"/>
+
+    <!-- windows -->
+    <g opacity=".95">
+      <g transform="translate(78,215)">
+        <rect x="0" y="0" width="18" height="18" rx="3" class="building window"/>
+        <rect x="26" y="0" width="18" height="18" rx="3" class="building window"/>
+        <rect x="52" y="0" width="18" height="18" rx="3" class="building window"/>
+        <rect x="0" y="28" width="18" height="18" rx="3" class="building window"/>
+        <rect x="26" y="28" width="18" height="18" rx="3" class="building window"/>
+        <rect x="52" y="28" width="18" height="18" rx="3" class="building window"/>
+      </g>
+      <g transform="translate(235,175)">
+        <rect x="0" y="0" width="18" height="18" rx="3" class="building window"/>
+        <rect x="26" y="0" width="18" height="18" rx="3" class="building window"/>
+        <rect x="52" y="0" width="18" height="18" rx="3" class="building window"/>
+        <rect x="78" y="0" width="18" height="18" rx="3" class="building window"/>
+        <rect x="104" y="0" width="18" height="18" rx="3" class="building window"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Trees / environment cues -->
+  <g filter="url(#softShadow)">
+    <circle cx="135" cy="372" r="22" fill="#5fbf7a"/>
+    <rect x="130" y="392" width="10" height="30" rx="4" fill="#8c6d4f"/>
+    <circle cx="790" cy="372" r="22" fill="#5fbf7a"/>
+    <rect x="785" y="392" width="10" height="30" rx="4" fill="#8c6d4f"/>
+  </g>
+
+  <!-- Environment hotspot (overlay) -->
+  <g id="environment" class="hotspot" tabindex="0" role="button" aria-label="Exposomics">
+    <rect class="halo" x="20" y="120" width="860" height="360" rx="24"/>
+    <rect x="28" y="128" width="844" height="344" rx="22" fill="#2ca02c" opacity=".06" class="stroke-soft" stroke-width="2" stroke="#2ca02c"/>
+    <g transform="translate(38,140)">
+      <rect class="pill" x="0" y="0" rx="16" width="210" height="44"/>
+      <text class="label" x="18" y="28">Environment</text>
+      <text class="label-sub" x="118" y="28">Exposomics</text>
+    </g>
+  </g>
+
+  <!-- Person -->
+  <g id="person" filter="url(#softShadow)">
+    <!-- shadow -->
+    <ellipse cx="460" cy="454" rx="90" ry="18" fill="#000" opacity=".08"/>
+
+    <!-- body -->
+    <path d="M450 250
+             C420 265 402 292 398 330
+             L392 390
+             C390 414 410 432 432 432
+             L488 432
+             C510 432 530 414 528 390
+             L522 330
+             C518 292 500 265 470 250
+             Z" fill="#ffffff" opacity=".95"/>
+
+    <!-- jacket outline -->
+    <path d="M450 250
+             C420 265 402 292 398 330
+             L392 390
+             C390 414 410 432 432 432
+             L488 432
+             C510 432 530 414 528 390
+             L522 330
+             C518 292 500 265 470 250
+             Z" fill="none" stroke="#7b8da1" stroke-opacity=".28" stroke-width="3"/>
+
+    <!-- legs -->
+    <path d="M430 432 L420 492" stroke="#7b8da1" stroke-opacity=".35" stroke-width="10" stroke-linecap="round"/>
+    <path d="M490 432 L500 492" stroke="#7b8da1" stroke-opacity=".35" stroke-width="10" stroke-linecap="round"/>
+
+    <!-- arms -->
+    <path d="M398 336 C360 340 335 360 320 392" stroke="#7b8da1" stroke-opacity=".28" stroke-width="14" stroke-linecap="round"/>
+    <path d="M522 336 C560 340 585 360 600 392" stroke="#7b8da1" stroke-opacity=".28" stroke-width="14" stroke-linecap="round"/>
+
+    <!-- Head hotspot -->
+    <g id="head" class="hotspot" tabindex="0" role="button" aria-label="Neuroimaging">
+      <circle class="halo" cx="460" cy="214" r="54"/>
+      <circle cx="460" cy="214" r="38" fill="#ffffff" opacity=".96"/>
+      <circle cx="460" cy="214" r="38" fill="none" stroke="#7b8da1" stroke-opacity=".28" stroke-width="3"/>
+      <!-- small brain hint -->
+      <path d="M446 216c-8-8-3-20 8-20 6-6 20-2 20 10 8 4 6 18-6 18-3 8-16 8-18-1-4 2-9 0-4-7z"
+            fill="#1f77b4" opacity=".22"/>
+      <g transform="translate(496,172)">
+        <rect class="pill" x="0" y="0" rx="16" width="170" height="44"/>
+        <text class="label" x="16" y="28">Head</text>
+        <text class="label-sub" x="62" y="28">Neuroimaging</text>
+      </g>
+    </g>
+
+    <!-- Arm vein hotspot -->
+    <g id="arm_vein" class="hotspot" tabindex="0" role="button" aria-label="Genetics and proteomics">
+      <!-- halo along the right arm -->
+      <path class="halo" d="M520 340 C560 346 585 366 602 395" stroke="#9467bd" stroke-width="34" stroke-linecap="round" fill="none"/>
+      <!-- vein -->
+      <path d="M520 340 C560 346 585 366 602 395" stroke="#9467bd" stroke-opacity=".65" stroke-width="4" stroke-linecap="round" fill="none"/>
+      <circle cx="560" cy="360" r="3.5" fill="#9467bd" opacity=".65"/>
+      <circle cx="585" cy="378" r="3.5" fill="#9467bd" opacity=".65"/>
+
+      <g transform="translate(615,340)">
+        <rect class="pill" x="0" y="0" rx="16" width="230" height="44"/>
+        <text class="label" x="16" y="28">Arm vein</text>
+        <text class="label-sub" x="92" y="28">Genetics + Proteomics</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Footer hint -->
+  <text class="hint" x="30" y="506">Tip: You can also use the modality buttons on the webpage (keyboard-friendly).</text>
+</svg>

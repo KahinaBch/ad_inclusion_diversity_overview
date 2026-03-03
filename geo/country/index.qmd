@@ -1,0 +1,27 @@
+---
+title: "Country details"
+root: "../.."
+format:
+  html:
+    toc: false
+---
+
+<div class="small-muted">
+This page is dynamic: it reads the <code>iso3</code> parameter from the URL, then renders content from <code>data/region_summaries.json</code> and <code>data/datasets.json</code>.
+</div>
+
+<div id="countryDetail" class="explorer-panel" style="margin-top:0.8rem">
+  Loading…
+</div>
+
+<div style="margin-top:0.8rem">
+  ← <a href="{{< meta root >}}/part2/explorer.qmd">Back to the Explorer</a>
+</div>
+
+```{=html}
+<script>
+  window.AD_DIVERSITY_ROOT = "{{< meta root >}}";
+</script>
+<script src="{{< meta root >}}/assets/js/region-detail.js"></script>
+```
+
