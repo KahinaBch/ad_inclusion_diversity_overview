@@ -25,6 +25,8 @@ website:
             text: "State of the art, scope & motivation"
       - text: "Part II – Initiatives integrating diversity"
         menu:
+          - href: part2/world-map.qmd
+            text: "Global Overview"
           - href: part2/explorer.qmd
             text: "Interactive Explorer"
           - href: part2/datasets.qmd
@@ -48,8 +50,7 @@ format:
   html:
     theme: minty
     css: assets/css/site.css
-    toc: true
-    toc-location: right
+    toc: false
     smooth-scroll: true
     code-copy: true
     link-external-newwindow: true

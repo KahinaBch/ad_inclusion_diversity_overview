@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="960" height="600">
+  <defs>
+    <style>
+      .continent { fill: #e8f4f8; stroke: #1f77b4; stroke-width: 1.5; }
+      .water { fill: #f0f8ff; }
+      .continent-label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14px; font-weight: 600; fill: #1f77b4; text-anchor: middle; pointer-events: none; }
+      .continent:hover { fill: #d4e8f0; }
+    </style>
+  </defs>
+  
+  <!-- Background (water) -->
+  <rect width="960" height="600" class="water"/>
+  
+  <!-- North America -->
+  <path class="continent" d="M 100 120 L 150 100 L 180 110 L 200 140 L 190 180 L 160 200 L 120 190 L 100 160 Z"/>
+  <text class="continent-label" x="145" y="150">North America</text>
+  
+  <!-- Central America & Caribbean -->
+  <circle class="continent" cx="135" cy="210" r="15"/>
+  
+  <!-- South America -->
+  <path class="continent" d="M 120 220 L 160 215 L 170 240 L 165 300 L 140 310 L 110 280 Z"/>
+  <text class="continent-label" x="140" y="270">South America</text>
+  
+  <!-- Europe -->
+  <path class="continent" d="M 320 100 L 380 95 L 400 120 L 370 150 L 330 140 Z"/>
+  <text class="continent-label" x="360" y="125">Europe</text>
+  
+  <!-- Africa -->
+  <path class="continent" d="M 360 150 L 420 140 L 450 160 L 480 200 L 470 280 L 420 320 L 380 310 L 360 250 Z"/>
+  <text class="continent-label" x="410" y="230">Africa</text>
+  
+  <!-- Middle East -->
+  <path class="continent" d="M 420 140 L 480 130 L 520 160 L 500 200 L 450 180 Z"/>
+  <text class="continent-label" x="475" y="160">Middle East</text>
+  
+  <!-- Western Asia -->
+  <path class="continent" d="M 480 130 L 550 120 L 580 150 L 550 180 L 500 200 Z"/>
+  <text class="continent-label" x="530" y="155">W. Asia</text>
+  
+  <!-- Asia -->
+  <path class="continent" d="M 550 100 L 680 110 L 720 130 L 740 180 L 710 220 L 620 240 L 580 210 L 550 160 Z"/>
+  <text class="continent-label" x="640" y="160">Asia</text>
+  
+  <!-- Southeast Asia -->
+  <path class="continent" d="M 680 200 L 740 190 L 760 240 L 720 280 L 680 270 Z"/>
+  <text class="continent-label" x="715" y="240">SE Asia</text>
+  
+  <!-- Australia & Oceania -->
+  <path class="continent" d="M 740 280 L 800 300 L 810 350 L 770 360 Z"/>
+  <text class="continent-label" x="780" y="330">Australia</text>
+  
+  <!-- Oceania -->
+  <circle class="continent" cx="830" cy="340" r="20"/>
+  <text class="continent-label" x="830" y="345" font-size="12">Oceania</text>
+  
+  <!-- Title -->
+  <text x="480" y="30" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 18px; font-weight: 700; fill: #1f77b4; text-anchor: middle;">Global Distribution of AD Research</text>
+  
+  <!-- Subtle grid lines for reference -->
+  <line x1="480" y1="50" x2="480" y2="570" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="5,5" opacity="0.3"/>
+  <line x1="50" y1="300" x2="910" y2="300" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="5,5" opacity="0.3"/>
+</svg>

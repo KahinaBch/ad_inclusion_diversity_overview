@@ -1,0 +1,60 @@
+---
+title: "{{< var project_title >}}"
+subtitle: "{{< var course >}} – Final Project"
+root: "."
+format:
+  html:
+    toc: false
+---
+
+::: {.hero}
+# {{< var project_title >}}
+
+<div class="badge-soft">GBM6330E • Final Project</div>
+
+<p class="lead">
+This site is a structured, reproducible project on why and how <strong>diversity</strong> must be included in research that aims to prevent and diagnose Alzheimer’s disease (AD), and how current initiatives and datasets address (or fail to address) this need.
+</p>
+
+**How to use this site**
+- **Part I** is a guided narrative (definitions, heterogeneity, diversity dimensions, and scope).
+- **Part II** is an exploration interface with an **Interactive Explorer** (map + modality diagram), and supporting pages on datasets, atlases/harmonisation, open science, and reproducibility.
+- **Original research** links to three reproducible repositories (to be created) corresponding to your project’s research deliverables.
+
+:::
+
+::: {.card-grid}
+
+::: {.card}
+### Part I — The need for diversity
+Why inclusion matters: what AD is, why it is heterogeneous, and which diversity dimensions impact prevention and diagnosis.
+
+[Open Part I](part1/01-defining-ad.qmd){.btn .btn-primary}
+:::
+
+::: {.card}
+### Part II — Interactive Explorer
+Explore datasets and initiatives by **geography** (continent/country) and **data modality** (neuroimaging, genetics/proteomics, exposomics).
+
+[Open Explorer](part2/explorer.qmd){.btn .btn-primary}
+:::
+
+::: {.card}
+### Original research
+Three reproducible sub-projects (each intended as its own GitHub repo), linked from the hub site.
+
+[Open Original research](original-research/index.qmd){.btn .btn-primary}
+:::
+
+:::
+
+---
+
+## What to edit first
+
+1. Update `data/datasets.json` with your real catalog (as exhaustive as possible).
+2. Update `data/region_summaries.json` with your writing + citations.
+3. Replace placeholder text in Part I and Part II narrative pages with your analysis.
+
+> Tip: The Interactive Explorer will automatically reflect updates to these JSON files.
+

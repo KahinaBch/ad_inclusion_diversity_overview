@@ -1,0 +1,35 @@
+---
+title: "Global Overview"
+root: ".."
+format:
+  html:
+    toc: false
+---
+
+::: {.callout-note}
+This page provides a visual overview of the global distribution of Alzheimer's disease research initiatives, datasets, and diverse populations.
+:::
+
+## Global AD Research Distribution
+
+![World map showing continental distribution of AD research initiatives and datasets]({{< meta root >}}/assets/img/world-map.svg){width=100% fig-alt="World map with continents highlighted showing the scope of this review"}
+
+This map visualizes the geographic scope of this project, highlighting the continents and regions where AD research with diversity considerations is emerging or established.
+
+## Regional Overview
+
+Use the **Interactive Explorer** (in the main navigation) to explore specific:
+- **Datasets** by country and modality
+- **Geographic focus** by continent
+- **Research initiatives** and harmonisation pipelines
+
+### Why Geographic Distribution Matters
+
+- **Data availability** varies dramatically by region
+- **Research equity** requires intentional inclusion from underrepresented populations
+- **Biological diversity** (ancestry, environmental exposures) enriches our understanding of AD heterogeneity
+- **Resource constraints** differ globally, affecting infrastructure for data harmonisation
+
+---
+
+**Next steps:** Explore the [Interactive Explorer](explorer.qmd) or learn more about [datasets](datasets.qmd) and [harmonisation initiatives](atlases-harmonization.qmd).

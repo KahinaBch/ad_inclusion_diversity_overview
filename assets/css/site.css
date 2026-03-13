@@ -3,13 +3,27 @@
 ------------------------------------------------------- */
 
 :root{
-  --ad-accent: #1f77b4;
-  --ad-accent-2: #2ca02c;
-  --ad-muted: rgba(33, 37, 41, 0.68);
+  --ad-dark-purple: #5b3a87;
+  --ad-light-purple: #b8a7d9;
+  --ad-white: #ffffff;
+  --ad-light-bg: #f8f6fb;
+  --ad-muted: rgba(91, 58, 135, 0.68);
+}
+
+/* Dark mode / light purple backgrounds */
+body {
+  background-color: var(--ad-white);
+  color: var(--ad-dark-purple);
 }
 
 .navbar-brand {
   font-weight: 700;
+  color: var(--ad-dark-purple) !important;
+}
+
+.navbar {
+  background-color: var(--ad-white);
+  border-bottom: 2px solid var(--ad-light-purple);
 }
 
 .quarto-title-block .quarto-title-banner {
@@ -26,8 +40,8 @@ a {
   padding: 0.35rem 0.55rem;
   border-radius: 999px;
   font-size: 0.85rem;
-  background: rgba(31, 119, 180, 0.12);
-  color: #0d3b66;
+  background: rgba(91, 58, 135, 0.12);
+  color: var(--ad-dark-purple);
 }
 
 /* -------------------------------------------------------
@@ -37,12 +51,13 @@ a {
 .hero {
   padding: 2.2rem 1.6rem;
   border-radius: 1rem;
-  background: linear-gradient(135deg, rgba(31, 119, 180, 0.10), rgba(44, 160, 44, 0.08));
-  border: 1px solid rgba(33, 37, 41, 0.10);
+  background: linear-gradient(135deg, rgba(91, 58, 135, 0.08), rgba(184, 167, 217, 0.08));
+  border: 1px solid var(--ad-light-purple);
 }
 
 .hero h1 {
   margin-bottom: 0.5rem;
+  color: var(--ad-dark-purple);
 }
 
 .hero p.lead {
@@ -59,10 +74,10 @@ a {
 
 .card-grid .card {
   border-radius: 1rem;
-  border: 1px solid rgba(33, 37, 41, 0.10);
+  border: 1px solid rgba(91, 58, 135, 0.15);
   padding: 1.1rem 1.1rem;
   background: #fff;
-  box-shadow: 0 10px 24px rgba(0,0,0,0.05);
+  box-shadow: 0 10px 24px rgba(91, 58, 135, 0.08);
 }
 
 .card-grid .card h3 {
@@ -98,9 +113,9 @@ a {
 
 .explorer-panel {
   border-radius: 1rem;
-  border: 1px solid rgba(33, 37, 41, 0.10);
+  border: 1px solid rgba(91, 58, 135, 0.15);
   background: #fff;
-  box-shadow: 0 10px 24px rgba(0,0,0,0.05);
+  box-shadow: 0 10px 24px rgba(91, 58, 135, 0.08);
   padding: 1rem;
 }
 
@@ -108,7 +123,7 @@ a {
   width: 100%;
   height: 520px;
   border-radius: 1rem;
-  border: 1px solid rgba(33, 37, 41, 0.10);
+  border: 1px solid rgba(91, 58, 135, 0.15);
   overflow: hidden;
 }
 
@@ -234,4 +249,127 @@ a {
 .small-muted {
   color: var(--ad-muted);
   font-size: 0.95rem;
+}
+/* -------------------------------------------------------
+   Sidebar Navigation (Scroll Spy)
+------------------------------------------------------- */
+
+.sidebar-nav {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1000;
+  background: var(--ad-dark-purple);
+  border-radius: 0 12px 12px 0;
+  padding: 1rem 0;
+  min-width: 60px;
+  box-shadow: 2px 4px 12px rgba(91, 58, 135, 0.2);
+}
+
+.sidebar-nav a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  color: var(--ad-light-purple);
+  text-decoration: none;
+  font-size: 0.75rem;
+  text-align: center;
+  padding: 0.5rem;
+  border-left: 4px solid transparent;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.sidebar-nav a:hover {
+  background-color: rgba(184, 167, 217, 0.1);
+  color: var(--ad-white);
+}
+
+.sidebar-nav a.active {
+  background-color: rgba(184, 167, 217, 0.2);
+  color: var(--ad-white);
+  border-left-color: var(--ad-light-purple);
+}
+
+.sidebar-nav a::before {
+  content: '';
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: currentColor;
+  margin-bottom: 0.5rem;
+}
+
+/* Section styling for continuous scroll */
+.scroll-section {
+  min-height: 100vh;
+  padding: 4rem 2rem;
+  scroll-margin-top: 60px;
+}
+
+.scroll-section h2 {
+  color: var(--ad-dark-purple);
+  border-bottom: 3px solid var(--ad-light-purple);
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* Adjust main content for sidebar */
+.content-main {
+  margin-left: 80px;
+}
+
+@media (max-width: 768px) {
+  .sidebar-nav {
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+    width: 100%;
+    border-radius: 0;
+    display: flex;
+    flex-direction: row;
+    min-width: auto;
+    padding: 0.5rem;
+    height: auto;
+    margin-bottom: 1rem;
+    overflow-x: auto;
+  }
+
+  .sidebar-nav a {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    border-left: none;
+    border-bottom: 4px solid transparent;
+  }
+
+  .sidebar-nav a.active {
+    border-left: none;
+    border-bottom-color: var(--ad-light-purple);
+  }
+
+  .content-main {
+    margin-left: 0;
+  }
+
+  .scroll-section {
+    padding: 2rem 1rem;
+  }
+}
+
+/* Button colors updated */
+.btn-primary {
+  background-color: var(--ad-dark-purple);
+  border-color: var(--ad-dark-purple);
+  color: var(--ad-white);
+}
+
+.btn-primary:hover {
+  background-color: var(--ad-light-purple);
+  border-color: var(--ad-light-purple);
 }
