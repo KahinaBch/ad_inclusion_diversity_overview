@@ -19,7 +19,7 @@ Create an open documentation to recap all available AD datasets and their conten
 - **Format:** GitHub repository + issues for community contributions
 - **Recommended structure:** data dictionary, modality tags, access requirements, geographies, demographics reporting checklist
 
-[Repo link (update)](https://github.com/){.btn .btn-primary}
+[Repo link](https://github.com/KahinaBch/ad-datasets-catalog){.btn .btn-primary}
 :::
 
 ::: {.card}
@@ -29,7 +29,7 @@ Create an open documentation listing shared atlases and harmonisation pipelines 
 - **Format:** GitHub repository + versioned inventory
 - **Recommended fields:** modality, license, citation, scope, input/output, validation benchmarks
 
-[Repo link (update)](https://github.com/){.btn .btn-primary}
+[Repo link](https://github.com/KahinaBch/ad-atlases-harmonisation){.btn .btn-primary}
 :::
 
 ::: {.card}
@@ -39,7 +39,7 @@ Investigate the proportion of papers sharing code and datasets in the journal.
 - **Format:** reproducible repo (data extraction protocol + analysis scripts + outputs)
 - **Include:** PRISMA-like flow, inter-rater reliability, open dataset of metadata where permitted
 
-[Repo link (update)](https://github.com/){.btn .btn-primary}
+[Repo link](https://github.com/KahinaBch/ad-reproducibility-study){.btn .btn-primary}
 :::
 
 :::
